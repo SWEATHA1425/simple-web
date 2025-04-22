@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #b0d0d0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333333;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #555555;
+}
+
+.friends {
+    float: left;
+    width: 20%;
+    background-color: #e0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.friends h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.friends ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friends ul li {
+    padding: 5px 0;
+    font-size: 1.1em;
+}
+
+main {
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.entry {
+    background-color: #f0f8f8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #c0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.entry h3 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px dashed #c0d0d0;
+    padding-bottom: 5px;
+    color: #333333;
+}
+
+.entry-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entry p {
+    font-size: 1.1em;
+    color: #333333;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.entry-image {
+    max-width: 120px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #c0d0d0;
+}
+
+footer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-top: 1px solid #c0c0c0;
+    margin-top: 20px;
+}
+
+.validation img {
+    margin: 5px;
+    width: 50px;
+}
